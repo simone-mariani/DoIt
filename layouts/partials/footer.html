@@ -7,6 +7,8 @@
                     {{- safeHTML . -}}
                 </div>
             {{- end -}}
+            
+            <span class="static"><a href="{{ .Site.Params.mysite.privacypolicy }}">Privacy</a> | <span class="static"><a href="{{ .Site.Params.mysite.contact }}">Contact</a>
 
             {{- /* Hugo, Host and DoIt */ -}}
             {{- $post_info := slice -}}
